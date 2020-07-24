@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DapperClass
+public class DapperInClass
 {
     class Department
     {
     }
+
+    public int DepartmentId { get; set; }
+    public string Name { get; set; }
+
 }

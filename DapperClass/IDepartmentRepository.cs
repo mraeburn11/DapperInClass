@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DapperClass
 {
-    public interface IDepartmentRepository
+    public interface IDepartmentRepository 
     {
         IEnumerable<Department> GetAllDepartments();
     }
